@@ -1,0 +1,64 @@
+.qrcodeBg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: right;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.qrcode {
+  background-color: white;
+  display: grid;
+  max-width: 48ch;
+  padding: 0 2.9rem;
+  height: 100vh;
+  align-content: start;
+  gap: 1.3rem;
+  border-radius: 15px 0 0 15px;
+  box-shadow: -10px 0px 15px rgba(0, 0, 0, .2);
+  left: 512px;
+  position: relative;
+  transition: .2s;
+}
+
+.qrcode span{
+  display: flex;
+  justify-content: right;
+}
+
+.qrcode span button{
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 3.2rem;
+  margin-right: .8rem;
+  padding: .7rem .6rem;
+  border-radius: 19px;
+  color: hsla(0, 0%, 14%, .8);
+}
+
+.qrcode span button:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: .3s;
+}
+
+.qrcode h1 {
+  max-width: 14ch;
+  font-size: 2.3rem;
+  font-weight: 300;
+  margin-top: 4.8rem;
+  word-spacing: -1.5px;
+}
+
+.qrcode p {
+  font-size: 1rem;
+  color: hsla(0, 0%, 14%, .8);
+}
+
+.qrcode img {
+  margin: 10px auto 0 auto;
+  height: 250px;
+}

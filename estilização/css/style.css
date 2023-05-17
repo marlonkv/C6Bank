@@ -1,0 +1,33 @@
+/* HEADER */
+@import './header/cabeçalho.css';
+@import '/estilização/css/header/imagens.css';
+
+/* MAIN */
+@import './main/imagem.css';
+@import './main/content.css';
+
+/* JS */
+@import './elementosJs/over.css';
+@import './elementosJs/qrcode.css';
+
+/* PLUGINS */
+@import '../../plugin/plugin.css';
+
+/* GLOBAL */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Sans Armenian', sans-serif;
+}
+main {
+  width: 100%;
+}
+
+ul, a, li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
